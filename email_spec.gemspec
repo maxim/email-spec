@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben Mabey", "Aaron Gibralter", "Mischa Fierer"]
-  s.date = %q{2010-04-05}
+  s.date = %q{2010-04-08}
   s.description = %q{Easily test email in rspec and cucumber}
   s.email = %q{ben@benmabey.com}
   s.extra_rdoc_files = [
@@ -88,6 +88,7 @@ Gem::Specification.new do |s|
      "examples/rails3_root/config/initializers",
      "examples/rails3_root/config/initializers/backtrace_silencers.rb",
      "examples/rails3_root/config/initializers/cookie_verification_secret.rb",
+     "examples/rails3_root/config/initializers/delayed_job.rb",
      "examples/rails3_root/config/initializers/inflections.rb",
      "examples/rails3_root/config/initializers/mime_types.rb",
      "examples/rails3_root/config/initializers/rspec_generator.rb",
